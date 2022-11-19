@@ -12,7 +12,7 @@ public class Judge {
         String save4="亿万仟佰拾";
         int lenth=s.length();
         for (int i=0;i<s.length();i++){
-            if(s.substring(i,i+1).compareTo("0")>0&&s.substring(i,i+1).compareTo("9")<0){
+            if(s.substring(i,i+1).compareTo("0")>=0&&s.substring(i,i+1).compareTo("9")<=0){
                 if (s.length()>12){
                     flag=0;
                     break;

@@ -6,16 +6,17 @@ import com.example.team12xcbc.Class.b_to_s;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/test")
 public class Controller {
 
     @PostMapping("/translate")
-    public String translateService(@RequestParam String num) {
-        String stringIn = num;
+    public String translateService(@RequestBody Map map) {
+        String stringIn = (String)map.get("data");
         Judge judge = new Judge();
-        int flag = judge.judge(num);
+        int flag = judge.judge(stringIn);
         if (flag == 1) {
             //小写转大写
             s_to_b stb = new s_to_b();
@@ -26,7 +27,7 @@ public class Controller {
             b_to_s bts = new b_to_s();
             return bts.c2u(stringIn);
         }
-        return "error";
+        return "当前输入不符合格式或不在范围内！！！";
 
     }
 }
