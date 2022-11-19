@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a7db7f-e46f-4eb3-9a39-963ebf27ddf3" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/Translate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Team12XcbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Team12XcbcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/ChineseAmoutUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/ChineseAmountUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/translateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/Translate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/Translate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/translateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/translateImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668839941518</updated>
-      <workItem from="1668839943718" duration="3290000" />
+      <workItem from="1668839943718" duration="3849000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1668839958940</created>
@@ -122,7 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668841706433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changes">
+      <created>1668843254238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668843254238</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes">
+      <created>1668843264171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668843264171</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changes">
+      <created>1668843293747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668843293747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
