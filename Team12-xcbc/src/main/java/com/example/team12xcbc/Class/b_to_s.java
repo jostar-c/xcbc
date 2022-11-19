@@ -5,7 +5,10 @@ public class b_to_s {
     private static char[] cnNum = new char[]{'零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖'};
     private static char[] unitArr = new char[]{'元', '拾', '佰', '仟', '万', '亿'};
 
+    private static int flag=0;
+
     public static BigDecimal chinese2Number(String chineseNumber) {
+        flag=0;
         BigDecimal result = new BigDecimal(0);
         int lastUnitIndex = 0, num = 0;
         for (int i = 0; i < chineseNumber.length(); i++) {
@@ -30,6 +33,7 @@ public class b_to_s {
                 BigDecimal unit = getUnit(c);
                 if (unitIndex > lastUnitIndex) {
                     //左边单位比右边单位小的情况，如：拾伍万 中的“拾”和“万”理论上是不符合递减规律的
+                    if(unitIndex==4 && flag==1) result=result.divideAndRemainder(new BigDecimal(1e4))[0].add(result.divideAndRemainder(new BigDecimal(1e4))[1]);
                     result = result.add(new BigDecimal(num)).multiply(unit);
                 } else {
                     //正常从左往右单位递减
@@ -71,6 +75,7 @@ public class b_to_s {
                 break;
             case 5:
                 num = 100000000;
+                flag=1;
                 break;
             case 0:
                 num = 1;

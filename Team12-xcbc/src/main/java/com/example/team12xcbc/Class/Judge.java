@@ -6,7 +6,7 @@ public class Judge {
         int flag=0;
         Scanner sc=new Scanner(System.in);
         String s=args;
-        String save1="零壹貮叁肆伍陆柒捌玖拾佰仟万亿元整";
+        String save1="零壹贰叁肆伍陆柒捌玖拾佰仟万亿元整";
         String[] save2=new String[]{"仟仟","亿亿","万万","佰佰","拾拾","零零"};
         String save3="壹貮叁肆伍陆柒捌玖";
         String save4="亿万仟佰拾";

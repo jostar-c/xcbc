@@ -5,7 +5,7 @@ public class s_to_b {
 
     static String cashUnitMoney[] = {"元", "拾", "佰", "仟", "万", "拾", "佰", "仟", "亿", "拾", "佰", "仟", "万"};
 
-    static String upperNumber[] = {"零", "壹", "贰", "弎", "肆", "伍", "陆", "柒", "捌", "玖"};
+    static String upperNumber[] = {"零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"};
 
     public String convert(String money) { //处理整数部分。
 
