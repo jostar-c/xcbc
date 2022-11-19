@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4a7db7f-e46f-4eb3-9a39-963ebf27ddf3" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Class/s_to_b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Class/Judge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Class/b_to_s.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/config/GlobalCorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/dao/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/ChineseAmountUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/tset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/Translate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/translateImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,18 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/81980/Desktop/软工/com.example",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/81980/Desktop/软工/com.example&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d6815a4ace4bbd960ee04857255fbdb7&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Team12XcbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Team12-xcbc" />
@@ -87,7 +83,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668839941518</updated>
-      <workItem from="1668839943718" duration="7201000" />
+      <workItem from="1668839943718" duration="8036000" />
+      <workItem from="1668848008390" duration="20000" />
+      <workItem from="1668848034975" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1668839958940</created>
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668844695128</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changes">
+      <created>1668847165263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668847165263</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
