@@ -1,22 +1,11 @@
-package xcbc;
+package com.example.team12xcbc.domain;
 
 import java.math.BigDecimal;
 
-/**
- * 中文金额转数字工具
- * @date 2019/7/19 13:44
- */
 public class ChineseAmountUtil {
 
     private static char[] cnNum = new char[]{'零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖'};
     private static char[] unitArr = new char[]{'厘', '分', '角', '圆', '拾', '佰', '仟', '万', '亿'};
-
-    /**
-     * 中文金额转数字
-     *
-     * @param chineseNumber 中文金额
-     * @return
-     */
     public static BigDecimal chinese2Number(String chineseNumber) {
         BigDecimal result = new BigDecimal(0);
         int lastUnitIndex = 0, num = 0;
@@ -84,15 +73,6 @@ public class ChineseAmountUtil {
             case 3:
                 num = 1;
                 break;
-            /*case 2:
-                num = 0.1;
-                break;
-            case 1:
-                num = 0.01;
-                break;
-            case 0:
-                num = 0.001;
-                break;*/
             default:
                 break;
         }
