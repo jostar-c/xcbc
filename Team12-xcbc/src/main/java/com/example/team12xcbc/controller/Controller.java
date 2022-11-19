@@ -21,7 +21,7 @@ public class Controller {
             s_to_b stb = new s_to_b();
             return stb.convert(stringIn);
         }
-        esle if(flag==2){
+        else if(flag==2){
             //大写转小写
             b_to_s bts = new b_to_s();
             return bts.c2u(stringIn);
