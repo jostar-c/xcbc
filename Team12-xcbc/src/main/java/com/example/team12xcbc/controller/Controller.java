@@ -1,4 +1,4 @@
-package com.Team12.YQdemo.controller控制层包;
+package com.example.team12xcbc.controller;
 
 import com.example.team12xcbc.service.Translate;
 import org.springframework.web.bind.annotation.*;

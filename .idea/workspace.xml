@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4a7db7f-e46f-4eb3-9a39-963ebf27ddf3" name="变更" comment="changes">
+      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/Translate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Team12XcbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/Team12XcbcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/controller/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/ChineseAmoutUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/domain/ChineseAmountUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/serviceImpl/translateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team12-xcbc/src/main/java/com/example/team12xcbc/service/test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HkrUSf97UZ78JiknreKNg9GmAM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/81980/Desktop/软工/com.example",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Team12XcbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Team12-xcbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.team12xcbc.Team12XcbcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f4a7db7f-e46f-4eb3-9a39-963ebf27ddf3" name="变更" comment="" />
+      <created>1668839941518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668839941518</updated>
+      <workItem from="1668839943718" duration="3290000" />
+    </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1668839958940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668839958940</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes">
+      <created>1668840007426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840007426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="用时将文件夹中test删去">
+      <created>1668840165604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840165604</updated>
+    </task>
+    <task id="LOCAL-00004" summary="用时将文件夹中test删去">
+      <created>1668840230054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668840230054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes">
+      <created>1668841706433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668841706433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用时将文件夹中test删去" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+  </component>
+</project>
