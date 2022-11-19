@@ -84,21 +84,4 @@ public class b_to_s {
         String str = String.valueOf(chinese2Number(s).longValue());
         return str;
     }
-    /*public static void main(String args[]) {
-        String s1 = "壹万伍仟肆佰壹拾圆叁角伍分肆厘";
-        String s2 = "捌万陆仟肆佰壹拾圆整";
-        String s3 = "壹万伍仟肆佰壹拾元贰角捌分肆厘";
-        String s4 = "拾壹亿壹仟万伍仟肆佰壹拾元贰角捌分肆厘";
-        String s5 = "壹拾伍万圆";
-        String str1 = String.valueOf(chinese2Number(s1).longValue());
-        String str2 = String.valueOf(chinese2Number(s2).longValue());
-        String str3 = String.valueOf(chinese2Number(s3).longValue());
-        String str4 = String.valueOf(chinese2Number(s4).longValue());
-        String str5 = String.valueOf(chinese2Number(s5).longValue());
-        System.out.printf("%s = %s\n", s1, str1);
-        System.out.printf("%s = %s\n", s2, str2);
-        System.out.printf("%s = %s\n", s3, str3);
-        System.out.printf("%s = %s\n", s4, str4);
-        System.out.printf("%s = %s\n", s5, str5);
-    }*/
 }
