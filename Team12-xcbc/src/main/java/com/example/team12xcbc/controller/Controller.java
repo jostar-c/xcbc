@@ -10,6 +10,7 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("/test")
 public class Controller {
+    
     @PostMapping("/translate")
     public String translateService(@RequestParam String num){
         String stringIn = num;
