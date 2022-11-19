@@ -12,7 +12,6 @@ import javax.annotation.Resource;
 public class Controller {
     @PostMapping("/translate")
     public String translateService(@RequestParam String num){
-    //调用输入函数
         String stringIn = num;
         Judge judge = new Judge();
         int flag = Judge.judge(num);
@@ -26,10 +25,7 @@ public class Controller {
             b_to_s bts = new b_to_s();
             return bts.c2u(stringIn);
         }
-        else if(flag==0){
+        else if(flag==0) {
             return "error";
         }
-
-    //调用输出函数
-
 }
