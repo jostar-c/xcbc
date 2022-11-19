@@ -2,12 +2,17 @@
   <div>
     <h1 class="tle">人民币大小写转换</h1>
     <div class="btn">
-      <img src="./button.png" @click="change()" width="64px" height="auto" />
+      <img
+        src="../static/btn.png"
+        @click="change()"
+        style="width: 64px; height: auto"
+        alt=""
+      />
     </div>
     <div class="input">
       <tr>
         <td>
-          <textarea style="overflow: hidden" v-model="datain">输入</textarea>
+          <textarea style="overflow: hidden" v-model="datain"></textarea>
         </td>
       </tr>
     </div>
@@ -15,7 +20,7 @@
     <div class="output">
       <tr>
         <td>
-          <textarea style="overflow: hidden" v-model="dataout">输出</textarea>
+          <textarea style="overflow: hidden" v-model="dataout"></textarea>
         </td>
       </tr>
     </div>
@@ -92,18 +97,16 @@ export default {
 
 
 <style>
-/* @font-face {
+@font-face {
   font-family: "one";
   font-weight: 400;
-  src: url("../现场编程/one/one.woff2") format("woff2"),
-    url("../现场编程/one/one.woff") format("woff");
+  src: url("one/one.woff2") format("woff2"), url("one/one.woff") format("woff");
 }
 @font-face {
   font-family: "two";
   font-weight: 400;
-  src: url("../现场编程/two/two.woff2") format("woff2"),
-    url("../现场编程/two/two.woff") format("woff");
-} */
+  src: url("two/two.woff2") format("woff2"), url("two/two.woff") format("woff");
+}
 * {
   padding: 0;
   margin: 0;
@@ -162,8 +165,8 @@ export default {
   color: rgb(197, 199, 199);
 }
 .btn {
-  margin-left: 680px;
-  margin-top: 200px;
+  margin-left: 670px;
+  margin-top: 20px;
 }
 #down {
   margin-top: 30px;
@@ -174,10 +177,5 @@ export default {
 }
 .t {
   color: rgb(92, 92, 92);
-}
-.btn {
-  z-index: 1;
-  margin-left: 670px;
-  margin-top: 50px;
 }
 </style>
